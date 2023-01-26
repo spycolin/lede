@@ -154,8 +154,8 @@ jobs:
           sed -i "6i uci set network.wan.password='24232547'" ./package/lean/default-settings/files/zzz-default-settings   
           # 关闭无线网络
           sed -i "7i set wireless.@wifi-device[0].disabled='1'" ./package/lean/default-settings/files/zzz-default-settings   
-          # 提交网络修改
-          sed -i "8i uci commit network\n" ./package/lean/default-settings/files/zzz-default-settings
+          # 提交修改
+          sed -i "8i uci commit" ./package/lean/default-settings/files/zzz-default-settings
           
       - name: Make download
         run: |
