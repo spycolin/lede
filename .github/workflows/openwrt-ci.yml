@@ -154,7 +154,7 @@ jobs:
           sed -i "5i uci set network.wan.usernam='13634955523@net'" ./package/lean/default-settings/files/zzz-default-settings
           sed -i "6i uci set network.wan.password='24232547'" ./package/lean/default-settings/files/zzz-default-settings
           # 提交修改
-          sed -i "7i uci commit" ./package/lean/default-settings/files/zzz-default-settings
+          sed -i "7i uci commit network" ./package/lean/default-settings/files/zzz-default-settings
           
       - name: Make download
         run: |
