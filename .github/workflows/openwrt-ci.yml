@@ -112,7 +112,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-uhttpd=y
           # CONFIG_PACKAGE_luci-app-vlmcsd is not set
           # CONFIG_PACKAGE_luci-app-vsftpd is not set
-          # CONFIG_PACKAGE_luci-app-wol is not set
+          CONFIG_PACKAGE_luci-app-wol=y
           CONFIG_PACKAGE_luci-i18n-samba-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-uhttpd-zh-cn=y
@@ -131,7 +131,7 @@ jobs:
           CONFIG_PACKAGE_ttyd=y
           # CONFIG_PACKAGE_vlmcsd is not set
           # CONFIG_PACKAGE_vsftpd-alt is not set
-          # CONFIG_PACKAGE_wol is not set
+          CONFIG_PACKAGE_wol=y
           CONFIG_LIBSODIUM_MINIMAL=y
           # CONFIG_LUA_ECO_MBEDTLS is not set
           CONFIG_MBEDTLS_AES_C=y
